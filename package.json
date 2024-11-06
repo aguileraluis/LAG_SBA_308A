@@ -1,0 +1,19 @@
+{
+  "name": "lag_lab_308a4_1",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "2.11.7",
+    "axios": "^1.7.7",
+    "parcel-bundler": "^1.6.1"
+  }
+}

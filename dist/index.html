@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Aguilera Garcia's Recipe Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="/style.e308ff8e.css">
+<script src="/style.e308ff8e.js"></script></head>
+<body>
+
+    <h1>Recipe Finder</h1>
+    <div id="search-form">
+        <input type="text" id="query" placeholder="Search for recipes...">
+        <button id="search-button">Search</button>
+    </div>
+    <div>
+      <button id="create-button">Create Recipe</button>
+      
+      <!--I was trying to add functionality to see all the recipe cards that the user has built in the local storage-->
+      <!-- <button id="view-button">View Recipes</button> -->
+    </div>
+   
+    <br>
+
+      <div id="recipeForm" style="display: none">
+        <h2>Create Recipe Card</h2>
+        <form id="new-post-form">
+          <input type="text" id="title" placeholder="Title">
+          <textarea id="ingredients" placeholder="Ingredients"></textarea>
+          <textarea id="instructions" placeholder="Instructions"></textarea>
+          <input type="number" id="readyInMinutes" placeholder="Ready in minutes (number less than 60)">
+          <input type="servings" id="servings" placeholder="Number of Servings">
+          <input multiple="" type="text" id="background" placeholder="Background Image URL">
+          <input multiple="" type="text" id="image-url" placeholder="Recipe Image URL.">
+          <button type="submit">Create Recipe Card</button>
+        </form>
+  
+    </div>
+   
+    <div id="results"></div>
+    <div id="cards"></div>
+    <div id="recipe-details">
+        <div id="recipe-content"></div>
+    </div>
+
+    <script type="text/javascript" src="/showDetails.4acb1dc3.js"></script>
+    <script type="text/javascript" src="/create.49d2bb2b.js"></script>
+    <script type="text/javascript" src="/LAG_SBA_308_A_.e31bb0bc.js"></script>
+</body>
+</html>
